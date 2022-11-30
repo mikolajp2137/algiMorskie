@@ -31,9 +31,17 @@ public class Main {
         System.out.println("\nBubble sort execution time in milliseconds: "+duration);
 
         long startTime2 = System.nanoTime();
-        bubbleLarge.sort();
+        //bubbleLarge.sort();
         long endTime2 = System.nanoTime();
         long duration2 = (endTime2 - startTime2)/1000000;
         System.out.println("\nBubble sort execution time in milliseconds for larger array: "+duration2);
+
+
+        InsertionSort ins1 = new InsertionSort(largeList);
+        long startTime3 = System.nanoTime();
+        ins1.sort();
+        long endTime3 = System.nanoTime();
+        long duration3 = (endTime3 - startTime3)/1000000;
+        System.out.print("Insertion sort for large array in milliseconds: "+duration3);
     }
 }
