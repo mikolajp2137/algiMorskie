@@ -3,7 +3,6 @@ import java.util.Random;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
         ArrayList<Integer> smallList = new ArrayList<>(50);
         ArrayList<Integer> largeList = new ArrayList<>();
         Random rand = new Random();
@@ -18,7 +17,7 @@ public class Main {
         for (int i = 0; i < 50; i++) {
             System.out.print(largeList.get(i) + " ");
         }*/
-
+        /*
         BubbleSort bubbleSmall = new BubbleSort(smallList);
         BubbleSort bubbleLarge = new BubbleSort(largeList);
         bubbleSmall.printIt();
@@ -43,5 +42,14 @@ public class Main {
         long endTime3 = System.nanoTime();
         long duration3 = (endTime3 - startTime3)/1000000;
         System.out.print("Insertion sort for large array in milliseconds: "+duration3);
+
+         */
+
+        MergeSort mergeS = new MergeSort(largeList);
+        long startTime3 = System.nanoTime();
+        mergeS.sortGiven();
+        long endTime3 = System.nanoTime();
+        long duration3 = (endTime3 - startTime3)/1000000000;
+        System.out.print("merge sort for large array in seconds: "+duration3);
     }
 }

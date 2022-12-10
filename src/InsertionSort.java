@@ -4,7 +4,7 @@ public class InsertionSort {
     ArrayList<Integer> toBeSorted = new ArrayList<>();
 
     public void sort() {
-        for (int i = 0; i < toBeSorted.size(); i++) {
+        for (int i = 1; i < toBeSorted.size(); i++) {
             int k = toBeSorted.get(i);
             int j = i - 1;
             while (j >= 0 && toBeSorted.get(j) > k) {

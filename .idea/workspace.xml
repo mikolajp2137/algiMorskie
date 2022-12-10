@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b0a65e08-87e2-4054-94fd-397dc92d197e" name="Changes" comment="bubble sort">
-      <change afterPath="$PROJECT_DIR$/src/InsertionSort.java" afterDir="false" />
+    <list default="true" id="b0a65e08-87e2-4054-94fd-397dc92d197e" name="Changes" comment="Insertion Sort">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InsertionSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MergeSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +54,8 @@
       <option name="presentableId" value="Default" />
       <updated>1669719709127</updated>
       <workItem from="1669719710385" duration="6067000" />
-      <workItem from="1669816546202" duration="694000" />
+      <workItem from="1669816546202" duration="2039000" />
+      <workItem from="1670684710995" duration="4394000" />
     </task>
     <task id="LOCAL-00001" summary="amen">
       <created>1669719807552</created>
@@ -83,7 +85,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669724200657</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Insertion Sort">
+      <created>1669817434606</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1669817434606</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -103,7 +112,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="amen" />
     <MESSAGE value="bubble sort" />
-    <option name="LAST_COMMIT_MESSAGE" value="bubble sort" />
+    <MESSAGE value="Insertion Sort" />
+    <option name="LAST_COMMIT_MESSAGE" value="Insertion Sort" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
