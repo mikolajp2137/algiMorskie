@@ -43,13 +43,21 @@ public class Main {
         long duration3 = (endTime3 - startTime3)/1000000;
         System.out.print("Insertion sort for large array in milliseconds: "+duration3);
 
-         */
-
+        */
         MergeSort mergeS = new MergeSort(largeList);
-        long startTime3 = System.nanoTime();
-        mergeS.sortGiven();
-        long endTime3 = System.nanoTime();
-        long duration3 = (endTime3 - startTime3)/1000000000;
-        System.out.print("merge sort for large array in seconds: "+duration3);
+        long startTimeM = System.nanoTime();
+        mergeS.sortStart();
+        long endTimeM = System.nanoTime();
+        long durationM = (endTimeM - startTimeM)/1000000;
+        System.out.println("merge sort for large array in micro seconds: "+durationM);
+
+
+        QuickSort quickS = new QuickSort(largeList);
+        long startTimeQ = System.nanoTime();
+        quickS.sortStart();
+        long endTimeQ = System.nanoTime();
+        long durationQ = (endTimeQ - startTimeQ)/1000000;
+        System.out.println("quick sort for large array in micro seconds: "+durationQ);
+
     }
 }

@@ -3,7 +3,7 @@ import java.util.ArrayList;
 public class MergeSort {
     ArrayList<Integer> toBeSorted = new ArrayList<>();
 
-    public void sortGiven() {
+    public void sortStart() {
         sort(0, toBeSorted.size() - 1);
     }
 

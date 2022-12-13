@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b0a65e08-87e2-4054-94fd-397dc92d197e" name="Changes" comment="Insertion Sort">
+      <change afterPath="$PROJECT_DIR$/src/QuickSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InsertionSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MergeSort.java" afterDir="false" />
     </list>
@@ -56,6 +56,7 @@
       <workItem from="1669719710385" duration="6067000" />
       <workItem from="1669816546202" duration="2039000" />
       <workItem from="1670684710995" duration="4394000" />
+      <workItem from="1670926027709" duration="2367000" />
     </task>
     <task id="LOCAL-00001" summary="amen">
       <created>1669719807552</created>
