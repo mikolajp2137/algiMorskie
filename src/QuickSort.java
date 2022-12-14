@@ -17,29 +17,29 @@ public class QuickSort {
     }
 
     int partition(int start, int end){
-        int init = start;
-        int len = end;
+        int left = start;
+        int right = end;
 
         Random r = new Random();
         int pivotIndex = nextIntInRange(start,end,r);
         int pivot = toBeSorted.get(pivotIndex);
 
         while (true){
-            while (toBeSorted.get(len)>pivot && len>start){
-                len--;
+            while (toBeSorted.get(right)>pivot && right>start){
+                right--;
             }
-            while (toBeSorted.get(init)<pivot && init<end){
-                init++;
+            while (toBeSorted.get(left)<pivot && left<end){
+                left++;
             }
-            if(init<len){
+            if(left<right){
                 int tmp;
-                tmp = toBeSorted.get(init);
-                toBeSorted.set(init,toBeSorted.get(len));
-                toBeSorted.set(len,tmp);
-                len--;
-                init++;
+                tmp = toBeSorted.get(left);
+                toBeSorted.set(left,toBeSorted.get(right));
+                toBeSorted.set(right,tmp);
+                right--;
+                left++;
             }else {
-                return len;
+                return right;
             }
         }
     }
